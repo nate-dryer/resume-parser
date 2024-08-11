@@ -34,9 +34,14 @@ This project is a resume parser that extracts and structures resume data accordi
    source venv/bin/activate
 
 3. Install the dependencies
-      pip install -r requirements.txt
-   
-4.  Export your OPENAI_API_KEY
+   pip install -r requirements.txt
 
-6. Runt he main script
-7.    python main.py
+4. Export your OPENAI_API_KEY
+   ```sh
+   export OPENAI_API_KEY="your_openai_api_key"
+   ```
+
+5. Run the main script
+   ```sh
+   python main.py
+   ```

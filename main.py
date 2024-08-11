@@ -12,6 +12,7 @@ def process_directory(directory):
         elif filename.endswith('.docx'):
             content = read_docx(file_path)
         else:
+            print(f"Unsupported file type: {filename}")  # Specific error message for unsupported file types
             continue  # Skip unsupported files
 
         # Use the assistant to process this content
