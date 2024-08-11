@@ -28,3 +28,15 @@ This project is a resume parser that extracts and structures resume data accordi
    ```sh
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
+
+2. Create a virtual environment (recommended)
+   python3 -m venv venv
+   source venv/bin/activate
+
+3. Install the dependencies
+      pip install -r requirements.txt
+   
+4.  Export your OPENAI_API_KEY
+
+6. Runt he main script
+7.    python main.py
